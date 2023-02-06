@@ -1,3 +1,16 @@
+:root {
+}
+/* body styles */
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400px;
+  background-color: #2e2f42;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800px;
+  font-style: 18px;
+  font-weight: 1.33;
 }
