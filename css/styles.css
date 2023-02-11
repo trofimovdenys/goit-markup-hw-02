@@ -13,7 +13,7 @@
   --background-color-team-cards: #fff;
   --footer-text-color: #e7e9fc;
   /* Portfolio */
-  --background-btn-clr-portfolio: #e7e9fc;
+  --background-btn-clr-portfolio: #f4f4fd;
   --clr-btn-portfolio: #4d5ae5;
 }
 /* body styles */
@@ -47,7 +47,6 @@ body {
   color: var(--dark-logo-color);
   text-decoration: none;
   text-transform: uppercase;
-  font-style: normal;
   letter-spacing: 0.03em;
 }
 .logo-web {
@@ -61,7 +60,6 @@ body {
   color: var(--light-logo-color);
   text-decoration: none;
   text-transform: uppercase;
-  font-style: normal;
   letter-spacing: 0.03em;
 }
 /* list-elements */
@@ -74,7 +72,6 @@ body {
   text-decoration: none;
   font-weight: 500;
   line-height: 1.5;
-  font-style: normal;
   letter-spacing: 0.02em;
 }
 .navigation-link-styles:hover {
@@ -106,7 +103,6 @@ body {
   line-height: 1.07;
   font-weight: 700;
   color: var(--light-text-color);
-  font-style: normal;
   letter-spacing: 0.02em;
 }
 .buttons {
@@ -123,6 +119,9 @@ body {
 }
 .buttons:hover {
   background-color: var(--hover-shift);
+}
+.buttons:focus {
+  background-color: var(--focus-shift);
 }
 /* section two */
 .title-section-two {
@@ -172,7 +171,7 @@ body {
   letter-spacing: 0.02em;
 }
 .team-position {
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .team-cards-color {
@@ -206,6 +205,10 @@ body {
 .category-name-projects {
   letter-spacing: 0.02em;
   line-height: 1.5;
+  color: var(--main-color-text);
+}
+.portfolio-links-cards {
+  text-decoration: none;
 }
 .btn-portfolio {
   background-color: var(--background-btn-clr-portfolio);
