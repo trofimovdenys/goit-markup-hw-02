@@ -117,7 +117,6 @@ body {
 }
 .buttons {
   background-color: var(--background-buttons-color);
-  border-radius: 4px;
   color: var(--light-text-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -218,27 +217,4 @@ body {
   line-height: 1.5;
   color: var(--main-color-text);
 }
-.portfolio-links-cards {
-  text-decoration: none;
-}
-.btn-portfolio {
-  background-color: var(--background-btn-clr-portfolio);
-  border-radius: 4px;
-  border: 1px solid #e7e9fc;
-  color: var(--clr-btn-portfolio);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  cursor: pointer;
-  letter-spacing: 0.04em;
-}
-.btn-portfolio:hover {
-  background-color: #404bbf;
-  color: #fff;
-}
-.btn-portfolio:focus {
-  background-color: #404bbf;
-  color: #fff;
-}
+
