@@ -2,7 +2,7 @@
   --brand-background-color: #fff;
   --secondary-background-color: #2e2f42;
   --dark-logo-color: #4d5ae5;
-  --light-logo-color: #f4f4fd;
+  --light-logo-color: #4d5ae5;
   --side-logo-color: #2e2f42;
   --dark-bold-text-color: #2e2f42;
   --main-color-text: #434455;
@@ -11,7 +11,7 @@
   --light-text-color: #fff;
   --background-buttons-color: #4d5ae5;
   --background-color-team-cards: #fff;
-  --footer-text-color: #e7e9fc;
+  --footer-text-color: #F4F4FD;
   /* Portfolio */
   --background-btn-clr-portfolio: #f4f4fd;
   --clr-btn-portfolio: #4d5ae5;
@@ -50,12 +50,16 @@ body {
   letter-spacing: 0.03em;
 }
 /* address style */
-.address-styles {
+.address-style {
   font-style: normal
 }
 .logo-web {
   color: var(--side-logo-color);
 }
+.logo-web-footer {
+  color: #f4f4fd
+}
+/* logo footer */
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -65,6 +69,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  font-weight: 700
 }
 /* list-elements */
 .list-elements {
