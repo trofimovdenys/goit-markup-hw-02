@@ -27,7 +27,6 @@ body {
 .visually-hidden {
   white-space: nowrap;
   overflow: hidden;
-  padding: 0;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
@@ -176,7 +175,7 @@ body {
   color: var(--dark-bold-text-color);
   letter-spacing: 0.02em;
 }
-.team-position {
+.team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
