@@ -1,9 +1,9 @@
 :root {
   --brand-background-color: #fff;
   --secondary-background-color: #2e2f42;
-  --dark-logo-color: #2e2f42;
+  --dark-logo-color: #4d5ae5;
   --light-logo-color: #f4f4fd;
-  --side-logo-color: #4d5ae5;
+  --side-logo-color: #2e2f42;
   --dark-bold-text-color: #2e2f42;
   --main-color-text: #434455;
   --hover-shift: #404bbf;
@@ -16,7 +16,7 @@
   --background-btn-clr-portfolio: #f4f4fd;
   --clr-btn-portfolio: #4d5ae5;
 }
-/* body styles */
+/* body styles */ 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -41,13 +41,17 @@ body {
 /* logo */
 .logo-header {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   color: var(--dark-logo-color);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+/* address style */
+.address-styles {
+  font-style: normal
 }
 .logo-web {
   color: var(--side-logo-color);
@@ -104,6 +108,7 @@ body {
   font-weight: 700;
   color: var(--light-text-color);
   letter-spacing: 0.02em;
+  text-align: center 
 }
 .buttons {
   background-color: var(--background-buttons-color);
@@ -162,6 +167,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center 
 }
 .team-names {
   font-weight: 500;
